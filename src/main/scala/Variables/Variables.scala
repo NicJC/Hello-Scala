@@ -17,6 +17,12 @@ object Variables {
     var st1 = "Hello Scala"
     val st2: String = "Hi Scala"
 
+  /* Interpolation
+   String interpolation allows us
+   to embed variable references, directly
+   in processed string literals.
+   */
+
     println("Hello " + name + " you are : " + age) // concatenation interpolation
 
     println(s"$name is $age years old") // s string interpolation, not type safe
