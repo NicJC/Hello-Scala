@@ -34,8 +34,8 @@ object Variables {
     println(st1);
     println(st2);
 
-  val tc = 99
-  println(s"${tc + 3} ballons floating in the sky")
+  val tcount = 99
+  println(s"${tcount + 3} fans going to the game")
 
   val TCost = 99
   val team = "LA Laker"
