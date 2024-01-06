@@ -33,4 +33,21 @@ object Variables {
 
     println(st1);
     println(st2);
+
+  val tc = 99
+  println(s"${tc + 3} ballons floating in the sky")
+
+  val TCost = 99
+  val team = "LA Laker"
+  println(f"The $team%s tickets are $$$TCost%1.2f")
+
+  val PInc = 20
+  val league = "NBA"
+  println(f"The $team%s tickets are $$$TCost%1.2f%nThat's a $PInc%% increase because everyone likes $league")
+
+  println(
+    f"""The $team%s tickets are $$$TCost%1.2f
+       |That's a $PInc%% increase because everyone likes $league""".stripMargin)
+
+
 }
