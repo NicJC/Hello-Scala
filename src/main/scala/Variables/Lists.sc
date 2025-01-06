@@ -6,6 +6,11 @@ res0.getClass
 
 val y = 1 :: 2 :: 8 :: Nil
 
+/*
+ Scala lists are built from “cons” cells and ends in a Nil element. You want to use this to your advantage
+ when working with a match expression, such as when writing a recursive function.
+ */
+
 y.max
 
 res2.getClass
