@@ -49,5 +49,14 @@ object Variables {
     f"""The $team%s tickets are $$$TCost%1.2f
        |That's a $PInc%% increase because everyone likes $league""".stripMargin)
 
+  val t = (1, true, "hello", 'c', 0.2, 0.5f, 12345678912345L)
+  println(t)
+
+  t.getClass
+
+  val a = Array[Int](1, 2, 3, 4)
+
+  a
+
 
 }
