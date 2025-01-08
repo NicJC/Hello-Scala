@@ -23,6 +23,10 @@ object Variables {
    in processed string literals.
    */
 
+  val aN = Array[Int](1, 2, 3, 4, 23)
+
+
+
     println("Hello " + name + " you are : " + age) // concatenation interpolation
 
     println(s"$name is $age years old") // s string interpolation, not type safe
@@ -33,6 +37,7 @@ object Variables {
 
     println(st1);
     println(st2);
+    println(s"This is an Array of: $aN");
 
   val tcount = 99
   println(s"${tcount + 3} fans going to the game")
@@ -51,12 +56,6 @@ object Variables {
 
   val t = (1, true, "hello", 'c', 0.2, 0.5f, 12345678912345L)
   println(t)
-
-  t.getClass
-
-  val a = Array[Int](1, 2, 3, 4)
-
-  a
 
 
 }
