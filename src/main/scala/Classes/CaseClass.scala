@@ -20,14 +20,3 @@ object bikesales {
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
