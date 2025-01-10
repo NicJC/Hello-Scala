@@ -9,14 +9,33 @@ methods can use that data to do the computational work of the object.
  */
 
 case class Bike(name: String , qty: Int)
-object bikesales {
-  def main(args: Array[String]): Unit = {
-    val Trek = Bike("Trek", 7)
+object bikestock {     // Singleton opject names bikestock
+  // In Scala, we typically use singleton objects to hold the main method.
+  def main(args: Array[String]): Unit = {  // This is the return type of the function, meaning that the function does not return any value.
+    /* Defines the main method which takes an array
+    of strings as its parameter and returns Unit
+    */
+ // def :  This keyword is used to declare a function in Scala.
+    val TREK = Bike("TREK", 7)
+    val Canondale = Bike("Canondale",3)
+    val GIANT = Bike("GIANT",6)
+    val Colnago = Bike("Colnago",5)
 
-    val cyclecheck = Trek match {
-      case Bike(name, qty) => s"There are $qty $name /s"
+    val cyclecheck = GIANT match {
+      case Bike(name, qty) => println(s"There are $qty $name /s in stock")
 
+        val cyclecheck = TREK match {
+          case Bike(name, qty) => println(s"There are $qty $name /s in stock")
 
+            val cyclecheck = Canondale match {
+              case Bike(name, qty) => println(s"There are $qty $name /s in stock")
+
+                val cyclecheck = Colnago match {
+                  case Bike(name, qty) => println(s"There are $qty $name /s in stock")
+
+                }
+            }
+        }
     }
   }
 }
