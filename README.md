@@ -6,4 +6,6 @@
 * [String Formats](https://github.com/NicJC/Hello-Scala/blob/master/src/main/scala/VariableFunctions/StringFormat.scala)
 * [Printing](https://github.com/NicJC/Hello-Scala/blob/https/github.com/NicJC/Hello-Scala/src/main/scala/Basics/Println.sc)
 * [Lists](https://github.com/NicJC/Hello-Scala/blob/https/github.com/NicJC/Hello-Scala/src/main/scala/Variables/Lists.sc)
-* [Claases](https://github.com/NicJC/Hello-Scala/tree/https/github.com/NicJC/Hello-Scala/src/main/scala/Classes)
+* [Classes](https://github.com/NicJC/Hello-Scala/tree/https/github.com/NicJC/Hello-Scala/src/main/scala/Classes)
+* [Method functions](https://github.com/NicJC/Hello-Scala/blob/https/github.com/NicJC/Hello-Scala/src/main/scala/Functions/MethodFunction.scala)
+  
